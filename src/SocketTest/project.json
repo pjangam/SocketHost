@@ -1,4 +1,4 @@
-﻿{
+{
   "version": "1.0.0-*",
   "buildOptions": {
     "emitEntryPoint": true
@@ -8,7 +8,11 @@
     "Microsoft.NETCore.App": {
       "type": "platform",
       "version": "1.0.1"
-    }
+    },
+    "runtime.unix.System.Net.Primitives": "4.3.0",
+    "System.Net.Http": "4.3.0",
+    "System.Net.NameResolution": "4.3.0",
+    "System.Net.Sockets": "4.3.0"
   },
 
   "frameworks": {
